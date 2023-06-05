@@ -39,9 +39,9 @@ public class Basics {
          *    (Relevant reading: 1.1.3. Printing things)
          */
         System.out.println(7 + 5);
-//        int[] nums = {0};
-//        int s = oddSum(nums);
-//        System.out.println("sum is " + s);
+        int[] nums = {17, 2};
+        int s = oddSum(nums);
+        System.out.println("sum is " + s);
 
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
@@ -179,7 +179,7 @@ public class Basics {
          *                (e.g. arr[i] gives you the item at index i).
          */
 
-        for (int i = 0; i <= arr.length; i+=2){
+        for (int i = 1; i <= arr.length - 1; i+=2){
             current_sum += arr[i];
         }
         return current_sum;
