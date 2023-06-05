@@ -31,6 +31,7 @@ public class Basics {
      *
      *    (Relevant reading: 1.1.2. Defining methods)
      */
+
     public static void main(final String[] args) {
         /* 3. In Python, we could print out code using the print() function.
          *    In Java, we do the same thing by using System.out.println();
@@ -39,10 +40,12 @@ public class Basics {
          *    (Relevant reading: 1.1.3. Printing things)
          */
         System.out.println(7 + 5);
-        int[] nums = {17, 2};
-        int s = oddSum(nums);
-        System.out.println("sum is " + s);
-
+//        int[] nums = {17, 2};
+//        int s = oddSum(nums);
+//        System.out.println("sum is " + s);
+//
+//        String s2 = split("The First Letters Are Not That Interesting");
+//        System.out.println(s2);
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
